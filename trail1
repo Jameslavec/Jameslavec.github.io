@@ -1,0 +1,39 @@
+public class ProteinRecipeChatBot {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input;
+
+        System.out.println("ProteinRecipeChatBot: Hello! Looking for some protein-rich recipes?");
+
+        while (true) {
+            System.out.print("You: ");
+            input = scanner.nextLine();
+
+            if (input.equalsIgnoreCase("exit")) {
+                System.out.println("ProteinRecipeChatBot: Goodbye and stay healthy!");
+                break;
+            }
+
+            String response = getRecipeResponse(input);
+            System.out.println("ProteinRecipeChatBot: " + response);
+        }
+
+        scanner.close();
+    }
+
+    public static String getRecipeResponse(String input) {
+        if (input.contains("chicken")) {
+            return "Try grilled chicken with quinoa and steamed broccoli. Season with garlic, lemon, and herbs!";
+        } else if (input.contains("beef")) {
+            return "How about beef steak with asparagus and mashed sweet potatoes? A dash of rosemary will enhance the taste!";
+        } else if (input.contains("vegetarian")) {
+            return "Consider making a chickpea salad with tomatoes, cucumbers, feta cheese, and olives. Dress with olive oil and lemon juice!";
+        } else if (input.contains("vegan")) {
+            return "Lentil soup with spinach, carrots, and onions is a great choice! Add some turmeric and black pepper for extra flavor.";
+        } else {
+            return "Please specify your preference, like chicken, beef, vegetarian, or vegan.";
+        }
+    }
+}
+
