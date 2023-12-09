@@ -6,7 +6,7 @@ body {
 }
 
 
-.problem-statement, .affinity-diagram, .storyboard, .hifi-prototype, .rehardware-sketch, .paper-prototype {
+.assignment, .problem-statement, .affinity-diagram, .storyboard, .hifi-prototype, .rehardware-sketch, .paper-prototype {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +16,7 @@ body {
     border-radius: 10px;
 }
 
+
 .responsive-img {
     max-width: 100%;
     height: auto;
@@ -24,11 +25,13 @@ body {
     border: 2px solid white;
 }
 
+
 h1, h2, h3 {
     color: teal;
     text-align: center;
     margin-top: 20px;
 }
+
 
 a {
     color: darkslategray;
@@ -39,8 +42,10 @@ a {
     transition: background-color 0.3s;
 }
 
+
 a:hover {
     background-color: teal;
     color: white;
 }
+
 
