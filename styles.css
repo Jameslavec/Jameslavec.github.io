@@ -5,7 +5,8 @@ body {
     padding: 20px;
 }
 
-.problem-statement, .affinity-diagram, .storyboard, .rehardware-sketch, .paper-prototype, .hifi-prototype {
+
+.problem-statement, .affinity-diagram, .storyboard, .hifi-prototype, .rehardware-sketch, .paper-prototype {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,3 +43,4 @@ a:hover {
     background-color: teal;
     color: white;
 }
+
