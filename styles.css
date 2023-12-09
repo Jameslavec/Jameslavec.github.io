@@ -5,7 +5,7 @@ body {
     padding: 20px;
 }
 
-.assignment, .problem-affinity, .storyboard, .rehardware-sketch, .hifi-prototype {
+.assignment, .problem-affinity, .storyboard, .rehardware-sketch, .paper-prototype, .hifi-prototype {
     display: flex;
     flex-direction: column;
     align-items: center;
