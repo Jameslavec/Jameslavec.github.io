@@ -3,35 +3,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 20px;
+    margin: 0;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
 
-.assignment, .problem-statement, .affinity-diagram, .storyboard, .hifi-prototype, .rehardware-sketch, .paper-prototype {
+section {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
-    background: lightblue;
-    border-radius: 10px;
 }
 
-
 .responsive-img {
-    max-width: 100%;
+    width: 100%; /* EDIT POINT for photos */
+    max-width: 600px; /* EDIT POINT for photos */
     height: auto;
-    padding: 10px;
     margin: 10px 0;
     border: 2px solid white;
 }
-
 
 h1, h2, h3 {
     color: teal;
     text-align: center;
     margin-top: 20px;
 }
-
 
 a {
     color: darkslategray;
@@ -42,10 +45,7 @@ a {
     transition: background-color 0.3s;
 }
 
-
 a:hover {
     background-color: teal;
     color: white;
 }
-
-
