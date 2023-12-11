@@ -58,3 +58,25 @@ h1, h2, h3 {
 .view-button:hover {
     background-color: darkslategray;
 }
+
+/* Footer Styles */
+footer {
+    background: navy; /* Same as body for consistency */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0; /* Small vertical margin for each line */
+}
+
+footer a {
+    color: teal; /* To match the other links in your site */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: lightblue; /* Highlight on hover */
+}
