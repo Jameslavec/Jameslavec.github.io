@@ -1,9 +1,16 @@
 body {
-    background: navy;
+    background: #f0f0f0; 
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 20px;
     margin: 0;
+}
+
+h1 {
+    background: #004d66; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
 main {
@@ -11,6 +18,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    background: navy; 
 }
 
 section {
@@ -37,7 +45,7 @@ section {
     margin-top: 20px; 
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: teal;
     text-align: center;
     margin-top: 20px;
@@ -59,24 +67,24 @@ h1, h2, h3 {
     background-color: darkslategray;
 }
 
-/* Footer Styles */
+
 footer {
-    background: navy; /* Same as body for consistency */
+    background: #004d66;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 footer p {
-    margin: 5px 0; /* Small vertical margin for each line */
+    margin: 5px 0;
 }
 
 footer a {
-    color: teal; /* To match the other links in your site */
+    color: teal;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 footer a:hover {
-    color: lightblue; /* Highlight on hover */
+    color: lightblue;
 }
