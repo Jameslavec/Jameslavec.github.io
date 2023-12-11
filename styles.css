@@ -5,12 +5,16 @@ body {
     margin: 0;
 }
 
-h1 {
-    background: #004d66; 
+header {
+    background-color: #004d66; 
     color: white;
     text-align: center;
-    margin: 0;
     padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    margin: 0; 
 }
 
 main {
@@ -28,21 +32,23 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #003366; 
+    text-shadow: 1px 1px 1px #ffffff; 
 }
 
 .responsive-img {
-    width: 100%; 
-    height: auto; 
-    max-width: 100%; 
-    margin: 0; 
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
     border: 2px solid white;
 }
 
 .personas-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 h2, h3 {
@@ -53,7 +59,7 @@ h2, h3 {
 
 .view-button {
     color: white;
-    background-color: teal;
+    background-color: #007bff; 
     text-decoration: none;
     padding: 10px 15px;
     margin-top: 10px;
@@ -64,13 +70,11 @@ h2, h3 {
 }
 
 .view-button:hover {
-    background-color: darkslategray;
+    background-color: #0056b3;
 }
 
-
 footer {
-    background: #004d66;
-    color: white;
+    background-color: #004d66; 
     padding: 20px;
     text-align: center;
 }
@@ -80,11 +84,11 @@ footer p {
 }
 
 footer a {
-    color: teal;
+    color: #8B0000; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 footer a:hover {
-    color: lightblue;
+    color: #FF4500; 
 }
