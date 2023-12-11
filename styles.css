@@ -55,9 +55,9 @@ h2, h3 {
     color: #007bff; 
     text-align: center;
     margin-top: 20px;
-    
-    text-shadow: 1px 1px 2px #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 
 .view-button {
     color: white;
